@@ -1,0 +1,20 @@
+{
+  "name": "bio-interpro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bio-interpro-panel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@bit/marko-ignjatovic.biopolymer.bio-icons": "^1.0.0",
+    "@polymer/iron-icon": "^3.0.1",
+    "@polymer/paper-input": "^3.0.2",
+    "@polymer/paper-item": "^3.0.1",
+    "@polymer/paper-listbox": "^3.0.1",
+    "@polymer/polymer": "^3.3.1",
+    "polymer": "^0.5.0"
+  }
+}
