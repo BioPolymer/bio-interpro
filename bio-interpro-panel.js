@@ -6,7 +6,7 @@ import "@polymer/paper-item/paper-item-body";
 import "@polymer/paper-input/paper-input";
 import "@polymer/paper-input/paper-textarea";
 import "@polymer/iron-icon/iron-icon";
-import "@bit/marko-ignjatovic.biopolymer.bio-icons/bio-icons/bio-icons";
+import "@biopolymer-elements/bio-icons";
 
 /**
  * `BioInterproPanel`

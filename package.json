@@ -1,14 +1,15 @@
 {
-  "name": "bio-interpro",
+  "name": "@biopolymer-elements/bio-interpro",
   "version": "1.0.0",
-  "description": "",
+  "description": "InterPro-related web components",
   "main": "bio-interpro-panel.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Mark Fortner, Ishan Subedi",
+  "license": "BSD-3-Clause",
   "dependencies": {
+    "@biopolymer-elements/bio-icons": "^1.0.0",
     "@bit/marko-ignjatovic.biopolymer.bio-icons": "^1.0.0",
     "@polymer/iron-icon": "^3.0.1",
     "@polymer/paper-input": "^3.0.2",
@@ -16,5 +17,19 @@
     "@polymer/paper-listbox": "^3.0.1",
     "@polymer/polymer": "^3.3.1",
     "polymer": "^0.5.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BioPolymer/bio-interpro.git"
+  },
+  "keywords": [
+    "bio",
+    "interpro",
+    "biopolymer"
+  ],
+  "bugs": {
+    "url": "https://github.com/BioPolymer/bio-interpro/issues"
+  },
+  "homepage": "https://github.com/BioPolymer/bio-interpro#readme"
 }
