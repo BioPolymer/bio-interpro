@@ -10,7 +10,6 @@
   "license": "BSD-3-Clause",
   "dependencies": {
     "@biopolymer-elements/bio-icons": "^1.0.0",
-    "@bit/marko-ignjatovic.biopolymer.bio-icons": "^1.0.0",
     "@polymer/iron-icon": "^3.0.1",
     "@polymer/paper-input": "^3.0.2",
     "@polymer/paper-item": "^3.0.1",
