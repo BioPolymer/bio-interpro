@@ -22,21 +22,21 @@ class BioInterproPanel extends PolymerElement {
       /** An array of InterPro domains. */
       model: {
         type: Array,
-        value: []
+        value: [],
       },
 
       /** The domain detail record. */
       detail: {
         type: Object,
         value: null,
-        notify: true
+        notify: true,
       },
 
       /** An array of literature reference objects. */
       literature: {
         type: Array,
-        value: []
-      }
+        value: [],
+      },
     };
   }
 
@@ -222,23 +222,23 @@ class BioInterproPanel extends PolymerElement {
 
   __handleSelect(e) {
     let id = e.detail.item.id;
-    let url = `https://www.ebi.ac.uk/interpro/beta/api/entry/interpro/${id}`;
+    let url = `https://www.ebi.ac.uk/interpro/api/entry/interpro/${id}`;
     fetch(url)
-      .then(response => response.json())
-      .then(json => {
+      .then((response) => response.json())
+      .then((json) => {
         let detail = json.metadata;
         this.set("detail", detail);
 
         if (detail.literature) {
           let literature = [];
-          Object.keys(detail.literature).map(key =>
+          Object.keys(detail.literature).map((key) =>
             literature.push(detail.literature[key])
           );
 
           this.set("literature", literature);
         }
       })
-      .catch(reason => {
+      .catch((reason) => {
         console.error(reason);
       });
   }
