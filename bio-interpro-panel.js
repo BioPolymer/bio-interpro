@@ -56,6 +56,7 @@ class BioInterproPanel extends PolymerElement {
           border-bottom: 1px solid #cacaca;
           width: 100%;
           text-align: left;
+          align-items: flex-start;
           @apply --layout-vertical;
         }
 
